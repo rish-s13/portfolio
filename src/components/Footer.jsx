@@ -25,6 +25,8 @@ export default function Footer() {
             </a>
             <a
               href="https://drive.google.com/file/d/1tqwYPc-5cfzfOJ5ow8lkYq7D9vT60EwL/view?usp=drive_link"
+              target="_blank"
+              rel="noopener noreferrer"
               className="footer__link footer__link--accent"
             >
               Resume ↓
