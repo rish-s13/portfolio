@@ -1,0 +1,141 @@
+.featured {
+  position: relative;
+  overflow: hidden;
+}
+
+.featured::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 1px;
+  background: var(--grad);
+  opacity: 0.4;
+}
+
+.featured__header {
+  margin-bottom: 64px;
+}
+
+.featured__body {
+  position: relative;
+  padding-left: 100px;
+}
+
+.featured__num {
+  position: absolute;
+  left: -20px;
+  top: -24px;
+  font-family: var(--font-head);
+  font-size: 8rem;
+  font-weight: 800;
+  line-height: 1;
+  opacity: 0.12;
+  pointer-events: none;
+  user-select: none;
+}
+
+.featured__main {
+  max-width: 680px;
+}
+
+.featured__title-row {
+  display: flex;
+  align-items: baseline;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 24px;
+}
+
+.featured__title {
+  font-family: var(--font-head);
+  font-size: clamp(2rem, 4vw, 3.2rem);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  color: var(--text);
+  line-height: 1;
+}
+
+.featured__tag {
+  font-size: 0.78rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--pink);
+  padding: 4px 10px;
+  border: 1px solid rgba(209,107,165,0.3);
+  border-radius: 4px;
+}
+
+.featured__one-liner {
+  font-size: 1.1rem;
+  font-weight: 300;
+  line-height: 1.75;
+  color: var(--muted);
+  margin-bottom: 40px;
+}
+
+.featured__points {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 48px;
+}
+
+.featured__point {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  font-size: 0.95rem;
+  color: var(--text);
+  line-height: 1.6;
+}
+
+.featured__point-marker {
+  flex-shrink: 0;
+  width: 20px;
+  height: 1px;
+  background: var(--grad);
+  margin-top: 11px;
+}
+
+.featured__actions {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.featured__btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  padding: 12px 24px;
+  border-radius: 6px;
+  transition: all 0.2s;
+  letter-spacing: 0.01em;
+}
+
+.featured__btn--primary {
+  background: var(--grad);
+  color: #fff;
+}
+.featured__btn--primary:hover {
+  opacity: 0.85;
+  transform: translateY(-1px);
+}
+
+.featured__btn--secondary {
+  border: 1px solid var(--border);
+  color: var(--muted);
+}
+.featured__btn--secondary:hover {
+  border-color: rgba(142,124,195,0.5);
+  color: var(--text);
+  transform: translateY(-1px);
+}
+
+@media (max-width: 768px) {
+  .featured__body { padding-left: 0; }
+  .featured__num { display: none; }
+}

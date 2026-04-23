@@ -1,0 +1,31 @@
+/* Hide default cursor */
+body {
+  cursor: none;
+}
+
+/* Core dot */
+.cursor-dot {
+  position: fixed;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #ffffff;
+  pointer-events: none;
+  z-index: 9999;
+  transform: translate(-50%, -50%);
+}
+
+/* Trail particles */
+.cursor-trail {
+  position: fixed;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9998;
+  transform: translate(-50%, -50%);
+  background: linear-gradient(135deg, #D16BA5, #8E7CC3, #3A86FF);
+  opacity: 0.2;
+  filter: blur(6px);
+  transition: opacity 0.2s ease;
+}
