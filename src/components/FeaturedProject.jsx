@@ -85,6 +85,19 @@ export default function FeaturedProject() {
                   <path d="M2.5 11.5L11.5 2.5M11.5 2.5H5.5M11.5 2.5V8.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
               </a>
+
+              <a
+                href="https://pitch-perfect-mb3m.onrender.com/"  // ← PUT YOUR DEPLOYED LINK HERE
+                target="_blank"
+                rel="noopener noreferrer"
+                className="featured__btn featured__btn--secondary"
+              >
+                Live Website
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+                  <path d="M2.5 11.5L11.5 2.5M11.5 2.5H5.5M11.5 2.5V8.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+              </a>
+
             </div>
           </div>
         </div>
