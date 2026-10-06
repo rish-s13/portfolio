@@ -3,8 +3,8 @@ import './Navbar.css'
 
 const links = [
   { label: 'About', href: '#about' },
-  { label: 'Work', href: '#work' },
-  { label: 'Resume', href: 'https://drive.google.com/file/d/1tqwYPc-5cfzfOJ5ow8lkYq7D9vT60EwL/view?usp=drive_link', external: true },
+  { label: 'Work', href: '#experience' },
+  { label: 'Resume', href: 'https://drive.google.com/file/d/1Wg0nkIPfwoXJMXejR-rO5mbp9MB7ElOG/view?usp=drive_link', external: true },
   { label: 'LinkedIn', href: 'https://linkedin.com/in/rishit-senapati', external: true },
 ]
 
@@ -16,7 +16,7 @@ export default function Navbar() {
     const onScroll = () => {
       setScrolled(window.scrollY > 40)
 
-      const sections = ['work', 'about']
+      const sections = ['experience', 'about']
       for (const id of sections) {
         const el = document.getElementById(id)
         if (!el) continue
