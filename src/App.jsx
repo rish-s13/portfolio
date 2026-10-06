@@ -6,6 +6,7 @@ import FeaturedProject from './components/FeaturedProject'
 import Work from './components/Work'
 import Approach from './components/Approach'
 import Footer from './components/Footer'
+import Experience from './components/Experience'
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
       <main>
         <Hero />
         <About />
+        <Experience />
         <FeaturedProject />
         <Work />
         <Approach />
