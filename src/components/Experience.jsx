@@ -48,7 +48,7 @@ export default function Experience() {
               <h2 className="experience__title">Hurt 2 Heal</h2>
 
               <span className="experience__tag">
-                Lead Product Designer & Developer
+                Lead Product Designer & Developer 
               </span>
             </div>
 
