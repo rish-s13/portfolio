@@ -29,14 +29,15 @@ export default function Hero() {
             <a href="mailto:senapatirishit@gmail.com" className="hero__contact-link">
               senapatirishit@gmail.com
             </a>
-            <p className="hero__sub">
-              Inquiries via Upwork? Please reach out directly through the Upwork platform to comply with ToS.
-            </p>
             <span className="hero__contact-sep" />
             <span className="hero__contact-item">Hyderabad, India</span>
             <span className="hero__contact-sep" />
             <span className="hero__contact-badge">Available Immediately</span>
           </div>
+
+          <p className="hero__tos-note">
+            *Inquiries via Upwork? Please reach out directly through the Upwork platform to comply with ToS.*
+          </p>
         </div>
 
         <div className="grad-line hero__divider" />
