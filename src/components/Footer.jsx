@@ -15,6 +15,7 @@ export default function Footer() {
             <a href="mailto:senapatirishit@gmail.com" className="footer__link">
               senapatirishit@gmail.com
             </a>
+            Inquiries via Upwork? Please reach out directly through the Upwork platform to comply with ToS.
             <a
               href="https://linkedin.com/in/rishit-senapati"
               target="_blank"
