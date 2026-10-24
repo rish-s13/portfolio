@@ -2,15 +2,38 @@ import './About.css'
 
 const skills = {
   Design: [
-    'UX Research', 'Information Architecture', 'Interaction Design',
-    'Behavioural Design', 'User Flows', 'Wireframing', 'Prototyping',
-    'Cognitive Load Reduction', 'Progressive Disclosure',
+    'UX Research',
+    'Information Architecture',
+    'Interaction Design',
+    'Behavioural Design',
+    'User Flows',
+    'Wireframing',
+    'Prototyping',
+    'Cognitive Load Reduction',
+    'Progressive Disclosure',
+    'Data Visualization',
+    'Spatial Analysis',
+    'Design Systems',
+    'Responsive Web Design',
   ],
   Product: [
-    'Product Thinking', 'Problem Framing', 'Decision Systems',
-    'Usability Thinking', 'Iteration', 'Metrics Thinking',
+    'Product Thinking',
+    'Problem Framing',
+    'Decision Systems',
+    'Usability Thinking',
+    'Iteration',
+    'Metrics Thinking',
+    'Systems Thinking',
+    'Information System Design',
+    'Accessibility & Safety Design',
   ],
-  Tools: ['Figma', 'Notion', 'Webflow'],
+  Tools: [
+    'Figma',
+    'Notion',
+    'Webflow',
+    'Squarespace',
+    'Zeffy / E-Commerce Integrations',
+  ],
 }
 
 export default function About() {
@@ -30,7 +53,7 @@ export default function About() {
           </p>
 
           <p className="about__summary about__summary--muted">
-            I focus on structuring information, defining decision flows, and translating complex systems into clear, low-friction experiences that support confident user decisions.
+            I focus on structuring information, defining decision flows, and translating complex systems into clear, low-friction, and inclusive experiences that support confident user decisions.
           </p>
 
             <div className="about__skills">
