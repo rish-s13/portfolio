@@ -25,19 +25,28 @@ export default function Hero() {
             My work focuses on information architecture, interaction design, and reducing cognitive load in systems where users need to interpret, evaluate, and act quickly.
           </p>
 
-          <div className="hero__contact">
-            <a href="mailto:senapatirishit@gmail.com" className="hero__contact-link">
-              senapatirishit@gmail.com
-            </a>
-            <span className="hero__contact-sep" />
-            <span className="hero__contact-item">Hyderabad, India</span>
-            <span className="hero__contact-sep" />
-            <span className="hero__contact-badge">Available Immediately</span>
-          </div>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
+            <div className="hero__contact">
+              <a href="mailto:senapatirishit@gmail.com" className="hero__contact-link">
+                senapatirishit@gmail.com
+              </a>
+              <span className="hero__contact-sep" />
+              <span className="hero__contact-item">Hyderabad, India</span>
+              <span className="hero__contact-sep" />
+              <span className="hero__contact-badge">Available Immediately</span>
+            </div>
 
-          <p className="hero__tos-note">
-            *Inquiries via Upwork? Please reach out directly through the Upwork platform to comply with ToS.*
-          </p>
+            <span
+              style={{
+                fontSize: '0.725rem',
+                color: 'var(--muted)',
+                opacity: 0.6,
+                letterSpacing: '0.01em',
+              }}
+            >
+              *Inquiries via Upwork? Please reach out directly through the Upwork platform to comply with ToS.
+            </span>
+          </div>
         </div>
 
         <div className="grad-line hero__divider" />
