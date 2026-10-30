@@ -26,7 +26,7 @@ export default function Footer() {
                   LinkedIn
                 </a>
                 <a
-                  href="https://drive.google.com/file/d/1Wg0nkIPfwoXJMXejR-rO5mbp9MB7ElOG/"
+                  href="https://drive.google.com/file/d/1HJ2-za4zg4YvS2ycDs0NmhnatVRwHUeX/view"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="footer__link footer__link--accent"

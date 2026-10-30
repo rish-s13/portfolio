@@ -4,7 +4,7 @@ import './Navbar.css'
 const links = [
   { label: 'About', href: '#about' },
   { label: 'Work', href: '#experience' },
-  { label: 'Resume', href: 'https://drive.google.com/file/d/1Wg0nkIPfwoXJMXejR-rO5mbp9MB7ElOG/', external: true },
+  { label: 'Resume', href: 'https://drive.google.com/file/d/1HJ2-za4zg4YvS2ycDs0NmhnatVRwHUeX/view/', external: true },
   { label: 'LinkedIn', href: 'https://linkedin.com/in/rishit-senapati', external: true },
 ]
 
